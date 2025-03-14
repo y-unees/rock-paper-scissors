@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <a href="https://unishdhungana.com.np"><img src="images/logo-white.png" alt="unish-dhungana"></a>
+        <h1>Rock Paper Scissors</h1>
+    </div>
+        <div class="choices">
+            <div class="choice" id="rock"><img src="images/rock.png" alt="rock image"></div>
+            <div class="choice" id="paper"><img src="images/paper.png" alt="paper image"></div>
+            <div class="choice" id="scissors"><img src="images/scissors.png" alt="scissors image"></div>
+        </div>
+    <div class="score-board">
+        <div class="user">
+            <p class="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="comp">
+            <p class="comp-score">0</p>
+            <p>Opp</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg" class="n-hide">You won!</p>
+        <p class="next n-hide" id="next">Next Round</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
