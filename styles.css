@@ -157,3 +157,49 @@ h1{
 .hidden {
     display: none;
 }
+
+.back-button {
+    display: inline-block;
+    padding: 12px 30px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: var(--forth-color); 
+    color: var(--tertiary-color); 
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px; 
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+    text-transform: uppercase; 
+}
+
+.back-button:hover {
+    background-color: #083e4e;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); 
+    transform: translateY(-3px);
+}
+
+@media (max-width: 800px) {
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    .back-button {
+        margin-top: 50px;
+        width: 180px;
+        font-size: 13px;
+        transition: none;
+        transform: none;
+        color: #000;
+        background-color: var(--tertiary-color);
+    }
+
+    .back-button:hover {
+        background-color: var(--tertiary-color);
+        transform: translateY(0px);
+    }
+}
